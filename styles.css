@@ -1,12 +1,13 @@
 *{ 
     margin: 0%;
     padding: 0%;
+    font-family: 'Signika', sans-serif;
 }
 .hero{
     height:  100vh;
     position: relative;
     width: 100vw;
-  background-image: linear-gradient(rgba(169, 170, 184, 0.5),rgba(169,170,184,0.5)),url(images/OIP.png);
+  background-image: linear-gradient(rgba(169, 170, 184, 0.5),rgba(169,170,184,0.5)),url(images/campus2.jfif);
     background-position: center;
     background-size: cover;
 
@@ -14,4 +15,32 @@
 .small{
     width: 60px;
     height: 40px;
+}
+nav{
+    display: flex;
+    padding: 3% 40%;
+    justify-content: space-between;
+    align-items: left;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    /* occupy all space in row */
+    text-align:right;
+    /* text on right side */
+}
+.nav-links ul li{
+    list-style: none;
+    /* no bullets */
+    display: inline-block;
+    /* horizontaly */
+    padding: 8px 10px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
 }
