@@ -1,0 +1,17 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+}
+.hero{
+    height:  100vh;
+    position: relative;
+    width: 100vw;
+  background-image: linear-gradient(rgba(169, 170, 184, 0.5),rgba(169,170,184,0.5)),url(images/OIP.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.small{
+    width: 60px;
+    height: 40px;
+}
