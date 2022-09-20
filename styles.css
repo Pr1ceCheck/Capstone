@@ -44,3 +44,16 @@ nav img{
     text-decoration: none;
     font-size: 16px;
 }
+/* click on effects */
+.nav-links ul li::after{
+content: "";
+width: 0%;
+height: 2px;
+background: red;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav-links ul li::hover::after{
+    width: 100%;
+}
