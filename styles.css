@@ -54,6 +54,60 @@ display: block;
 margin: auto;
 transition: 0.5s;
 }
+/* navagation links */
 .nav-links ul li::hover::after{
     width: 100%;
+}
+/* textbox */
+.text-box{
+  width: 90%; 
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px;
+    font-size: 13px;
+}
+/* enroll button */
+.enroll-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: orangered;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    padding: 16px 33px;
+}
+.enroll-btn:hover{
+    border: 2px solid gray;
+    background: gray;
+    transition: 1s;
+}
+
+/* mobile screen display */
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 22px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: white;
+        height: 100vh;
+        width: 200px;
+        top: 0%;
+        right: 0%;
+        text-align: left;
+    }
+    
 }
